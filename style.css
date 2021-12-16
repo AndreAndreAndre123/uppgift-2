@@ -1,0 +1,280 @@
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fff8f8;
+}
+
+body header {
+  height: 15vh;
+  background-color: #252020;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header h1 {
+  color: #fff8f8;
+  font-size: 26px;
+}
+
+body .main-div-intro {
+  text-align: center;
+  border-bottom: black solid 1px;
+  background-color: #fff8f8;
+}
+
+body .main-div-intro h2 {
+  font-size: 24px;
+}
+
+body .main-div-explain-webb {
+  text-align: center;
+  background-color: #fff8f8;
+}
+
+body .main-div-explain-webb h2 {
+  font-size: 24px;
+}
+
+body main .five-example-div {
+  border-top: solid black 1px;
+  background-color: #fff8f8;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body main .five-example-div h3 {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+body main .five-example-div .example-left-container {
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  gap: 3%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 20%;
+  border-bottom: solid black 0.5px;
+  line-height: 2em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .five-example-div .example-left-container .example-left-text {
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+
+body main .five-example-div .example-left-container .example-left-text h4 {
+  font-size: 26px;
+  text-decoration: underline;
+  margin: 3px 0 0 0;
+}
+
+body main .five-example-div .example-left-container .example-left {
+  height: 40vh;
+  width: 100%;
+  border-radius: 13px;
+}
+
+body main .five-example-div .example-left-container #wheel {
+  background-image: url(img/arisa-chattasa-yrLnBqnsn84-unsplash.jpg);
+  background-size: cover;
+  background-position: center top;
+}
+
+body main .five-example-div .example-left-container #eye {
+  background-image: url(img/josh-calabrese-qmnpqDwla_E-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+body main .five-example-div .example-left-container #ear {
+  background-image: url(img/mark-paton-bmzkW_nN0pQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+body main .five-example-div .example-left-container #flags {
+  background-image: url(img/joshua-fuller-zLJMOjUr61k-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+body main .five-example-div .example-left-container #elders {
+  background-image: url(img/wj-zmMtb3PtsrE-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+body main .five-front-example-container {
+  background-color: #fff8f8;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+body main .five-front-example-container h4 {
+  text-decoration: underline;
+  font-size: 1.5em;
+}
+
+body main .five-front-example-container .five-front-examples {
+  font-family: 'Ubuntu', 'Times New Roman', Times, serif;
+  margin: 0 5% 5% 5%;
+  border-bottom: solid black 1px;
+  font-weight: 600;
+  line-height: 2em;
+}
+
+body main aside {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+body main aside b {
+  font-size: 1.5em;
+}
+
+body main aside nav {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main aside nav a {
+  text-decoration: none;
+  color: black;
+}
+
+body footer {
+  height: 7vh;
+  background-color: #252020;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer small {
+  color: #e4d5d5;
+  font-size: 1em;
+}
+
+@media (min-width: 750px) {
+  body .main-div-intro p {
+    font-size: 2em;
+  }
+  body .main-div-intro h2 {
+    font-size: 30px;
+  }
+  body .main-div-explain-webb p {
+    font-size: 2em;
+  }
+  body .main-div-explain-webb h2 {
+    font-size: 30px;
+  }
+  body main {
+    margin: 0 10% 0 10%;
+  }
+  body main .five-example-div h3 {
+    font-size: 30px;
+  }
+  body main .five-example-div .example-left-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-bottom: 5%;
+  }
+  body main .five-example-div .example-left-container h4 {
+    font-size: 24px;
+  }
+  body main .five-example-div .example-left-container p {
+    font-size: 1.8em;
+  }
+  body main .five-example-div .example-left-container .example-left {
+    height: 50vh;
+  }
+  body main .five-front-example-container {
+    margin: 0 15% 5% 15%;
+  }
+  body main .five-front-example-container h3 {
+    font-size: 30px;
+  }
+  body main .five-front-example-container h4 {
+    text-decoration: underline;
+    font-size: 24px;
+  }
+  body main .five-front-example-container p {
+    font-size: 1.8em;
+  }
+  body main aside {
+    gap: 100px;
+  }
+  body main aside b {
+    font-size: 1.8em;
+  }
+  body main aside a {
+    font-weight: 700;
+  }
+  body main aside a:hover {
+    text-decoration: underline;
+  }
+  body small {
+    font-size: 1.5em;
+  }
+}
+/*# sourceMappingURL=style.css.map */

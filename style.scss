@@ -1,0 +1,316 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:  rgb(255, 248, 248);
+    
+    header{
+
+        height: 15vh;
+        background-color: rgb(37, 32, 32);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            color:  rgb(255, 248, 248);
+            font-size: 26px;
+        }
+        
+    }
+    .main-div-intro{
+        text-align: center;
+        border-bottom: black solid 1px;
+        background-color:  rgb(255, 248, 248);
+        h2{
+            font-size: 24px;
+            
+        }
+
+    }
+    .main-div-explain-webb{
+        text-align: center;
+        background-color:  rgb(255, 248, 248);
+
+        h2{
+            font-size: 24px;  //sätt alla h2 till samma sen
+            
+        }
+    }
+    
+    main{
+
+    .five-example-div{
+        border-top: solid black 1px;
+        background-color: rgb(255, 248, 248);
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: flex-start;
+        
+        h3{
+            text-align: center;
+            line-height: 1.5em;
+        }
+        .example-left-container{
+            font-family: "roboto", Arial, Helvetica, sans-serif;
+            display: flex;
+            width: 100%;
+            height: auto;
+            gap: 3%;
+            flex-direction: column;
+            padding-bottom: 20%;
+            border-bottom: solid black 0.5px;
+            line-height: 2em;
+            align-items: center;
+            
+            .example-left-text{
+                height:auto;
+                width:100% ;
+                text-align: center;
+                
+                h4{
+                    font-size: 26px;
+                    text-decoration: underline;
+                    margin: 3px 0 0 0;
+                }
+                
+            }
+
+            .example-left{
+                height: 40vh;
+                width:100% ;
+                border-radius: 13px;
+                }
+            
+            #wheel{
+                background-image: url(img/arisa-chattasa-yrLnBqnsn84-unsplash.jpg);
+                background-size: cover;
+                background-position: center top;
+                
+            }
+            #eye{
+                background-image: url(img/josh-calabrese-qmnpqDwla_E-unsplash.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            #ear{
+                background-image: url(img/mark-paton-bmzkW_nN0pQ-unsplash.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            #flags{
+                background-image: url(img/joshua-fuller-zLJMOjUr61k-unsplash.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            #elders{
+                background-image: url(img/wj-zmMtb3PtsrE-unsplash.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            
+        }
+    }
+
+.five-front-example-container{
+        background-color: rgb(255, 248, 248);
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        margin-bottom: 7%;
+
+        h4{
+            text-decoration: underline;
+            font-size: 1.5em;
+        }
+        
+        .five-front-examples{
+            font-family: 'Ubuntu', 'Times New Roman', Times, serif;
+            margin: 0 5% 5% 5%;
+            border-bottom: solid black 1px;
+            font-weight: 600;
+            line-height: 2em;
+        }
+}
+aside{
+        text-align: center;
+        margin-bottom: 5%;
+        b{
+            font-size: 1.5em;
+            
+        }
+    nav{
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        
+       
+            
+            a{
+                text-decoration: none;
+                color: black;
+                
+            }
+        
+    }
+}
+}
+    footer{
+        height: 7vh;
+        background-color: rgb(37, 32, 32);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+        small{
+            color: rgb(228, 213, 213);
+            font-size: 1em;
+            
+        }
+    }
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 750px){
+    body{
+        
+        
+        .main-div-intro{
+            p{
+                font-size: 2em;
+            }
+            h2{
+                font-size: 30px;
+                
+            }
+    
+        }
+        .main-div-explain-webb{
+            
+            p{
+                font-size: 2em;
+            }
+            h2{
+                font-size: 30px;
+                
+            }
+        }
+        
+        main{
+            margin: 0 10% 0 10%;
+    
+        .five-example-div{
+            
+            h3{
+               font-size: 30px; 
+                
+            }
+            .example-left-container{
+               
+                flex-direction: row;
+                padding-bottom: 5%;
+
+                h4{
+                    font-size: 24px;
+                }
+                p{
+                    font-size: 1.8em;
+                }
+                
+            
+                .example-left{
+                    height: 50vh;
+                    
+                    }
+    
+            }
+        }
+    
+    .five-front-example-container{
+             margin: 0 15% 5% 15%;
+            
+            h3{
+                font-size: 30px;
+            }
+    
+            h4{
+                text-decoration: underline;
+                font-size: 24px;
+            }
+
+            p{
+                font-size: 1.8em;
+            }
+            
+            
+    }
+    aside{
+            
+            b{
+                font-size: 1.8em;
+                
+            }
+        
+            
+            
+                gap: 100px;
+                
+                a{
+                    font-weight: 700;
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+            
+        
+    }
+    }
+        
+    
+            small{
+              font-size: 1.5em;
+                
+            }
+        
+    
+    }
+}
